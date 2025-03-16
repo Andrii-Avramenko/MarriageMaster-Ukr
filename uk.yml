@@ -1,17 +1,17 @@
 # To simplify the customisation and the translation process please check out the editor: https://ptp.pcgamingfreaks.at
 Language:
-  NotFromConsole: "&cThis command can't be used from the console!"
+  NotFromConsole: "&cЦя команда не може бути використанна в консолі!"
   # Global Wildcards: <heart> and <smallheart>
   Ingame:
-    NoPermission: "&cYou don't have the permission to do that."
+    NoPermission: "&cВас не має прав це зробити."
     NaN: "&cThe entered value is not a number!"
-    NotMarried: "&cYou are not married."
-    PartnerOffline: "&cYour partner is offline."
-    PartnerNotInRange: "&cYour partner is too far away."
-    TargetPartnerNotFound: "&cYour targeted partner was not found!"
-    PlayerNotMarried: "&c\"{PlayerName}\" is not married!"
-    PlayerNotFound: "&cCouldn't find \"{PlayerName}\"!"
-    PlayerNotOnline: "&c\"{PlayerName}\" is offline!"
+    NotMarried: "&cВи не одруженні."
+    PartnerOffline: "&cВаш партнер не в мережі."
+    PartnerNotInRange: "&cВаш партнер занадто далеко."
+    TargetPartnerNotFound: "&cВашого потенційного партенра не було знайдено!"
+    PlayerNotMarried: "&c\"{PlayerName}\" не одручений!"
+    PlayerNotFound: "&cНе вдалося знайти \"{PlayerName}\"!"
+    PlayerNotOnline: "&c\"{PlayerName}\" не в мережі!"
     PlayersNotMarried: "&cThe players aren't married!"
     MarriageNotExact: "&cWe are sorry, but there is more than one marriage matching your request!"
     JoinLeaveInfo:
@@ -80,26 +80,26 @@ Language:
       BlockedFrom: "&cYou are not allowed to teleport home from here."
       BlockedTo: "&cYou are not allowed to teleport to your home. Please move it."
     Kiss:
-      Kissed: "&eYou have kissed your partner!"
+      Kissed: "&eВи поцілували свого партнера!"
       Kissed_SendMethod: "action_bar"
-      GotKissed: "&eYour partner has kissed you!"
+      GotKissed: "&eВаш партнер поцілував вас!"
       GotKissed_SendMethod: "action_bar"
-      TooFarAway: "&cYou are too far away to kiss your partner. (Max {Distance} blocks)"
+      TooFarAway: "&cВи занадто далеко щоб поцілувати свого партнера. (Максимально {Distance} блоків)"
       # Placeholders: {Time}, {TimeLeft} in seconds
       Wait: "&cYou have to wait {Time} seconds to kiss your partner again."
     Hug:
-      Hugged: "&eYou have hugged your partner!"
+      Hugged: "&eВи обняли свого партнера!"
       Hugged_SendMethod: "action_bar"
-      GotHugged: "&eYour partner has hugged you!"
+      GotHugged: "&eВаш партнер обняв вас!"
       GotHugged_SendMethod: "action_bar"
-      TooFarAway: "&cYou are too far away to hug your partner. (Max {Distance} blocks)"
+      TooFarAway: "&cВи занадто далеко щоб обняти його свого партнера. (Максимально {Distance} блоків)"
       # Placeholders: {Time}, {TimeLeft} in seconds
-      Wait: "&cYou have to wait {Time} seconds to hug your partner again."
+      Wait: "&cВи маєте почекати {Time} секунд щоб обняти знову."
     Seen:
       # Placeholders: {Name}, {DisplayName}
-      CurrentlyOnline: "{DisplayName}&r is currently &aonline&r."
+      CurrentlyOnline: "{DisplayName}&r зараз &aонлайн&r."
       # Placeholders: {Name}, {Date}, {Count}, {CountTotalDays}
-      LastSeen: "[\"\",{\"text\":\"{Name} was last seen on \",\"extra\":[{\"text\":\"{Date}\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{Count} ago\"}},{\"text\":\".\"}]}]"
+      LastSeen: "[\"\",{\"text\":\"{Name} останній раз в мережі \",\"extra\":[{\"text\":\"{Date}\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{Count} ago\"}},{\"text\":\".\"}]}]"
       # No Json!!!
       DateFormat: "yyyy-MM-dd 'at' HH:mm:ss"
     List:
@@ -111,28 +111,28 @@ Language:
     Partners:
       Headline: "&ePartner list of {DisplayName}:"
       Footer: "&e##############################"
-      NotMarried: "{DisplayName}&e is not married."
+      NotMarried: "{DisplayName}&e не одружений."
       # Player1 is the player that was queried. Player2 is the partner
       Format: "&2{Player1DisplayName} {MagicHeart} &2{Player2DisplayName}"
     ListPriests:
       Format: "&2{PriestDisplayName}"
-      NoPriestsOnline: "&cThere are no priests online."
-      Headline: "&eOnline priests&r&f - &r&6showing page {CurrentPage}/{MaxPage}"
+      NoPriestsOnline: "&cНема ніяких священиків онлайн."
+      Headline: "&eСвященники онлайн&r&f - &r&6Сторінка {CurrentPage}/{MaxPage}"
       Footer: "[\"\",{\"text\":\"<<< Previous <<<\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"}},{\"text\":\" Showing page {CurrentPage}/{MaxPage} \",\"color\":\"gold\"},{\"text\":\">>> Next >>>\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"}}]"
     PvP:
-      IsDisabled: "&cYou can't hurt your partner if you have PvP disabled."
+      IsDisabled: "&cВи не можете вдарити свого партнера поки відключено PvP."
       IsDisabled_SendMethod: "action_bar"
-      On: "&aYou have now enabled PvP with your partner."
-      Off: "&aYou have now disabled PvP with your partner."
+      On: "&aВи увімкнули PvP зі своїм партнером."
+      Off: "&aВи вимкнули PvP зі своїм партнером."
     TP:
       PartnerVanished: "&cYou can't use teleport if your partner is vanished."
-      Teleport: "&aTeleporting to partner..."
-      TeleportTo: "&aYour partner is teleporting to you..."
-      Unsafe: "&cTeleport cancelled! You would not survive it!"
+      Teleport: "&aТелепортація до партнера..."
+      TeleportTo: "&aВаш партнер телепортуєтся до вас..."
+      Unsafe: "&cТелепорт відкликано! Ви не переживете це!"
       ToUnsafe: "&cYour partner was about to teleport to you, but would not survive it!"
       WorldNotAllowed: "&cYour partner is in a world where tp is not allowed."
-      Moved: "&cTeleport canceled! You have moved!"
-      DontMove: "&cTeleport in {Time} sec! Don't Move!"
+      Moved: "&cТелепорт відкликано! Ви поверухнулися!"
+      DontMove: "&cТелепортація через {Time} секунд! Не рухайтесь!"
       BlockedFrom: "&cYou are not allowed to teleport to your partner from here."
       BlockedTo: "&cYou are not allowed to teleport to where your partner is."
       Request:
@@ -463,7 +463,7 @@ Placeholders:
 # The name of the language represented by the language file
 LanguageName: "Ukranian"
 # The author of the language file
-Author: "Klich244"
+Author: "potato4308"
 
 # Language file version. Don't touch it!
 Version: 113
