@@ -16,11 +16,11 @@ Language:
     MarriageNotExact: "&cWe are sorry, but there is more than one marriage matching your request!"
     JoinLeaveInfo:
       # Only used for players with 1 partner
-      PartnerOnline: "&aYour partner is online."
+      PartnerOnline: "&aВаш партнер онлайн."
       # Only used for players with 1 partner
-      PartnerOffline: "&7Your partner is offline."
+      PartnerOffline: "&7Ваш партнер оффлайн."
       # Only used for players with more than 1 partner
-      AllPartnersOffline: "&7All your partners are offline."
+      AllPartnersOffline: "&7Всі ваші партнери оффлайн."
       # Only used for players with more than 1 partner
       PartnerOnlineMulti: "&aFollowing partners are online: &r&f{OnlinePartners}"
       # Placeholders: {Name}, {DisplayName}.    Keep in mind display names can contain colors!  No JSON!!!
@@ -28,9 +28,9 @@ Language:
       # No JSON!!!
       MultiOnlineSeparator: "&r, "
       # Placeholders: {Name}, {DisplayName}
-      PartnerNowOnline: "&aYour partner is now online."
+      PartnerNowOnline: "&aВаш партнер зараз онлайн."
       # Placeholders: {Name}, {DisplayName}
-      PartnerNowOffline: "&7Your partner is now offline."
+      PartnerNowOffline: "&7Ваш партнер зараз оффлайн."
     Backpack:
       OnlyInSurvival: "&cYou can only access your partner's backpack when you are in survival mode."
       ShareOn: "&aYou now share your backpack with your partner."
